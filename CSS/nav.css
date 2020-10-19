@@ -43,7 +43,7 @@ img.burguer {
             z-index: 0;
 }
 @media screen and (max-width: 600px) {
-    a { display: none;
+    a.delete { display: none;
         }
 }
 @media screen and (min-width: 600px) {

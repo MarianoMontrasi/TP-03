@@ -12,6 +12,8 @@
         text-align: center;
         position: fixed;
         width: 91%;
+        z-index: 0;
+
 }
 .img1 {
         position: absolute;
