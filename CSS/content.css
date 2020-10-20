@@ -58,7 +58,6 @@ h3 {
     border-width: 2px 0px;
     max-width: 600px;
 }
-}
 @media screen and (max-width: 630px) {
     .container1 {
         border-style: solid;
@@ -68,7 +67,5 @@ h3 {
 @media screen and (max-width: 600px) {
         section, aside {flex-wrap: wrap;}
 }
-@media screen and (max-width: 1000px) {
-    img {display: none;}
-}
+
       
