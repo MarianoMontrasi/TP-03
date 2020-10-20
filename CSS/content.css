@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 section {
-    flex: 70%;
+    flex: 50%;
 }
 div.container1 h2{
     font-size: 40px;
@@ -19,7 +19,6 @@ div.container1 h2{
     padding: 0px;
     max-width: 600px;
 }
-
 div.container1 a{
     text-decoration: none;
     color: #9c5c00;
@@ -36,15 +35,26 @@ div.container1 p{
 div.container1 img{
     max-width: 600px;
     height: 400px;
-}
+} 
 aside {
-    flex: 30%;
+    flex: 25%;
+    justify-content: flex-start;
+}
+div.image img{
+    width: 150px;
+    height: 125px;
+    display: block;
+    flex: 25%;
+    justify-content: flex-start;
+    margin: 20px 0px 0px 10px;
+    padding: 0px 15px 0px 0px;
+
 }
 h3 {
     font-size: 35px;
     font-weight: bold;
-    margin: 20px 0px 0px 10px;
-    padding: 0px 15px;
+    margin: 35px 0px 5px 10px;
+    padding: 10px 0px;
     border-style: solid;
     border-color: #6f4e1d;
     border-width: 2px 0px;
@@ -58,4 +68,5 @@ h3 {
         }
 @media screen and (max-width: 600px) {
         section, aside {flex-wrap: wrap;}
-        
+}
+      
